@@ -2,16 +2,10 @@
 using namespace std;
 
 int main(){
-    int i = 0;
+    int a  =  20, b = 30;
+    double c = 4, output;
 
-while(i < 58){
-
-    char x = 'A'+i;
-
-    cout << x;
-
-    i++;
-
-}
+    output = a - (b/c);
+    cout << "output: " << output << "\n";
     return 0;
 }
